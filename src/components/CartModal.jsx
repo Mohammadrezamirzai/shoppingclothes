@@ -7,12 +7,22 @@ export default function CartModal({ title, actions, isOpen }) {
   const dialog = useRef();
 
   useEffect(() => {
-    if (isOpen) {
+    if (isOpen && dialog.current) {
       dialog.current.showModal();
-    } else {
-      dialog.current.close();
     }
+    // No need to call close() here, since the dialog will be removed from the DOM when isOpen is false
+    // Cleanup: if dialog is open and component unmounts, close it
+    return () => {
+      if (dialog.current && dialog.current.open) {
+        dialog.current.close();
+      }
+    };
   }, [isOpen]);
+
+  // Only render the modal when isOpen is true
+  if (!isOpen) {
+    return null;
+  }
 
   return createPortal(
     <dialog id="modal" ref={dialog}>
@@ -22,6 +32,6 @@ export default function CartModal({ title, actions, isOpen }) {
         {actions}
       </form>
     </dialog>,
-    document.getElementById("modal")
+    document.body
   );
 }

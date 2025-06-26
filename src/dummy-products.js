@@ -9,10 +9,10 @@ export const DUMMY_PRODUCTS = [
   {
     id: 'p1',
     image: mochaOvercoat,
-    title: 'Majestic Vintage Mocha Overcoat',
+    title: ' Vintage Mocha Overcoat',
     price: 129.99,
     description:
-      'Channel timeless sophistication with this stunning mocha overcoat. Crafted for the discerning gentleman who appreciates the fine blend of vintage charm and modern elegance.',
+      'Timeless sophistication with vintage charm and modern elegance.',
   },
   {
     id: 'p2',
@@ -20,7 +20,7 @@ export const DUMMY_PRODUCTS = [
     title: 'Enchanting Blush Dream Gown',
     price: 189.99,
     description:
-      'Bask in the glow of elegance with our Enchanting Blush Dream Gown. Embody the regality of a queen with a sweet touch of pink that whispers enchantment. This is the perfect piece for those seeking to create unforgettable moments.',
+      'Elegant blush gown with regal design for unforgettable moments.',
   },
   {
     id: 'p3',
@@ -28,7 +28,7 @@ export const DUMMY_PRODUCTS = [
     title: 'Vintage Sunshine Rain Jacket',
     price: 49.99,
     description:
-      'Brace the showers in style! Our Vintage Sunshine Rain Jacket ensures that you stand out, even in the dullest weather. Because rain is never a reason to compromise on your fashion quotient.',
+      'Stylish rain jacket that keeps you fashionable even in dull weather.',
   },
   {
     id: 'p4',
@@ -36,15 +36,15 @@ export const DUMMY_PRODUCTS = [
     title: 'Classic Merlot Business Suit',
     price: 249.99,
     description:
-      'Step into the boardroom with unmatched confidence in our Classic Merlot Business Suit. Exuding an air of refined class and understated power, it is ideal for the modern executive who values tradition and elegance.',
+      'Refined business suit for the modern executive with understated power.',
   },
   {
     id: 'p5',
     image: moonlightDress,
-    title: 'Ethereal Moonlight Evening Dress',
+    title: 'Ethereal Evening Dress',
     price: 159.99,
     description:
-      'Sweep the room off its feet in our Ethereal Moonlight Evening Dress. Crafted to mimic the allure of the moonlight, this dress is a nod to those who appreciate subtle glamour and a standout silhouette.',
+      'Alluring evening dress that mimics the beauty of moonlight.',
   },
   {
     id: 'p6',
@@ -52,7 +52,7 @@ export const DUMMY_PRODUCTS = [
     title: 'Pioneer Rugged Denim Jacket',
     price: 79.99,
     description:
-      'Our Pioneer Rugged Denim Jacket is a tribute to those who embody the spirit of adventure. Designed with durability and comfort in mind, this jacket is a wardrobe essential for the urban explorer.',
+      'Durable denim jacket designed for urban explorers and adventurers.',
   },
   {
     id: 'p7',
@@ -60,7 +60,7 @@ export const DUMMY_PRODUCTS = [
     title: 'Royal Emerald Evening Coat',
     price: 199.99,
     description:
-      'Make a grand entrance in our Royal Emerald Evening Coat. This luxurious piece combines rich emerald tones with exquisite tailoring, perfect for those special occasions that demand nothing but the finest.',
+      'Luxurious emerald coat with exquisite tailoring for special occasions.',
   },
   {
     id: 'p8',
@@ -68,7 +68,7 @@ export const DUMMY_PRODUCTS = [
     title: 'Celestial Silver Gala Dress',
     price: 299.99,
     description:
-      'Shine like the stars in our Celestial Silver Gala Dress. This masterpiece features intricate silver detailing and a flowing silhouette that captures the essence of celestial beauty.',
+      'Stunning silver gala dress with intricate detailing and flowing silhouette.',
   },
   {
     id: 'p9',
@@ -76,7 +76,7 @@ export const DUMMY_PRODUCTS = [
     title: 'Urban Explorer Windbreaker',
     price: 89.99,
     description:
-      'Conquer the urban landscape in our Urban Explorer Windbreaker. This versatile piece combines modern functionality with street-smart style, perfect for the city dweller who values both form and function.',
+      'Versatile windbreaker combining modern functionality with street style.',
   },
   {
     id: 'p10',
@@ -84,6 +84,6 @@ export const DUMMY_PRODUCTS = [
     title: 'Navy Blue Executive Suit',
     price: 279.99,
     description:
-      'Command attention in our Navy Blue Executive Suit. This sophisticated ensemble is crafted for the modern professional who understands that true power lies in understated elegance.',
+      'Sophisticated navy suit for the modern professional with understated elegance.',
   }
 ];
